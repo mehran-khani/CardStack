@@ -10,7 +10,7 @@ Interactive, draggable card stack view using SwiftUI, similar to interfaces seen
 
 *   Interactive card stack UI built entirely with SwiftUI.
 *   Smooth drag gestures to move the top card around.
-*   Swipe gesture (left/right) to dismiss the top card.
+*   Swipe gesture (left/right/up/down) to dismiss the top card.
 *   Clean animations for card movement and dismissal.
 *   Dynamic stack effect showing underlying cards.
 
