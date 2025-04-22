@@ -24,25 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3999F40E2DB6B88500B57C0B /* cards stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cards stack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3999F4202DB6B88800B57C0B /* cards stackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cards stackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3999F42A2DB6B88800B57C0B /* cards stackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cards stackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3999F40E2DB6B88500B57C0B /* CardStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3999F4202DB6B88800B57C0B /* CardStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3999F42A2DB6B88800B57C0B /* CardStackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardStackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3999F4102DB6B88500B57C0B /* cards stack */ = {
+		3999F4102DB6B88500B57C0B /* CardStack */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "cards stack";
-			sourceTree = "<group>";
-		};
-		3999F4232DB6B88800B57C0B /* cards stackTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "cards stackTests";
-			sourceTree = "<group>";
-		};
-		3999F42D2DB6B88800B57C0B /* cards stackUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "cards stackUITests";
+			path = CardStack;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +65,7 @@
 		3999F4052DB6B88500B57C0B = {
 			isa = PBXGroup;
 			children = (
-				3999F4102DB6B88500B57C0B /* cards stack */,
-				3999F4232DB6B88800B57C0B /* cards stackTests */,
-				3999F42D2DB6B88800B57C0B /* cards stackUITests */,
+				3999F4102DB6B88500B57C0B /* CardStack */,
 				3999F40F2DB6B88500B57C0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +73,9 @@
 		3999F40F2DB6B88500B57C0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3999F40E2DB6B88500B57C0B /* cards stack.app */,
-				3999F4202DB6B88800B57C0B /* cards stackTests.xctest */,
-				3999F42A2DB6B88800B57C0B /* cards stackUITests.xctest */,
+				3999F40E2DB6B88500B57C0B /* CardStack.app */,
+				3999F4202DB6B88800B57C0B /* CardStackTests.xctest */,
+				3999F42A2DB6B88800B57C0B /* CardStackUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3999F40D2DB6B88500B57C0B /* cards stack */ = {
+		3999F40D2DB6B88500B57C0B /* CardStack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3999F4342DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "cards stack" */;
+			buildConfigurationList = 3999F4342DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "CardStack" */;
 			buildPhases = (
 				3999F40A2DB6B88500B57C0B /* Sources */,
 				3999F40B2DB6B88500B57C0B /* Frameworks */,
@@ -108,18 +96,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3999F4102DB6B88500B57C0B /* cards stack */,
+				3999F4102DB6B88500B57C0B /* CardStack */,
 			);
-			name = "cards stack";
+			name = CardStack;
 			packageProductDependencies = (
 			);
 			productName = "cards stack";
-			productReference = 3999F40E2DB6B88500B57C0B /* cards stack.app */;
+			productReference = 3999F40E2DB6B88500B57C0B /* CardStack.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3999F41F2DB6B88800B57C0B /* cards stackTests */ = {
+		3999F41F2DB6B88800B57C0B /* CardStackTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3999F4372DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "cards stackTests" */;
+			buildConfigurationList = 3999F4372DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "CardStackTests" */;
 			buildPhases = (
 				3999F41C2DB6B88800B57C0B /* Sources */,
 				3999F41D2DB6B88800B57C0B /* Frameworks */,
@@ -130,19 +118,16 @@
 			dependencies = (
 				3999F4222DB6B88800B57C0B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				3999F4232DB6B88800B57C0B /* cards stackTests */,
-			);
-			name = "cards stackTests";
+			name = CardStackTests;
 			packageProductDependencies = (
 			);
 			productName = "cards stackTests";
-			productReference = 3999F4202DB6B88800B57C0B /* cards stackTests.xctest */;
+			productReference = 3999F4202DB6B88800B57C0B /* CardStackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3999F4292DB6B88800B57C0B /* cards stackUITests */ = {
+		3999F4292DB6B88800B57C0B /* CardStackUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3999F43A2DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "cards stackUITests" */;
+			buildConfigurationList = 3999F43A2DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "CardStackUITests" */;
 			buildPhases = (
 				3999F4262DB6B88800B57C0B /* Sources */,
 				3999F4272DB6B88800B57C0B /* Frameworks */,
@@ -153,14 +138,11 @@
 			dependencies = (
 				3999F42C2DB6B88800B57C0B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				3999F42D2DB6B88800B57C0B /* cards stackUITests */,
-			);
-			name = "cards stackUITests";
+			name = CardStackUITests;
 			packageProductDependencies = (
 			);
 			productName = "cards stackUITests";
-			productReference = 3999F42A2DB6B88800B57C0B /* cards stackUITests.xctest */;
+			productReference = 3999F42A2DB6B88800B57C0B /* CardStackUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3999F4092DB6B88500B57C0B /* Build configuration list for PBXProject "cards stack" */;
+			buildConfigurationList = 3999F4092DB6B88500B57C0B /* Build configuration list for PBXProject "CardStack" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +182,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3999F40D2DB6B88500B57C0B /* cards stack */,
-				3999F41F2DB6B88800B57C0B /* cards stackTests */,
-				3999F4292DB6B88800B57C0B /* cards stackUITests */,
+				3999F40D2DB6B88500B57C0B /* CardStack */,
+				3999F41F2DB6B88800B57C0B /* CardStackTests */,
+				3999F4292DB6B88800B57C0B /* CardStackUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +240,12 @@
 /* Begin PBXTargetDependency section */
 		3999F4222DB6B88800B57C0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3999F40D2DB6B88500B57C0B /* cards stack */;
+			target = 3999F40D2DB6B88500B57C0B /* CardStack */;
 			targetProxy = 3999F4212DB6B88800B57C0B /* PBXContainerItemProxy */;
 		};
 		3999F42C2DB6B88800B57C0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3999F40D2DB6B88500B57C0B /* cards stack */;
+			target = 3999F40D2DB6B88500B57C0B /* CardStack */;
 			targetProxy = 3999F42B2DB6B88800B57C0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,7 +377,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"cards stack/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CardStack/Preview Content\"";
 				DEVELOPMENT_TEAM = MQ8H985ALH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,7 +406,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"cards stack/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CardStack/Preview Content\"";
 				DEVELOPMENT_TEAM = MQ8H985ALH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -461,7 +443,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cards stack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cards stack";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardStack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardStack";
 			};
 			name = Debug;
 		};
@@ -480,7 +462,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cards stack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cards stack";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardStack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardStack";
 			};
 			name = Release;
 		};
@@ -521,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3999F4092DB6B88500B57C0B /* Build configuration list for PBXProject "cards stack" */ = {
+		3999F4092DB6B88500B57C0B /* Build configuration list for PBXProject "CardStack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3999F4322DB6B88800B57C0B /* Debug */,
@@ -530,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3999F4342DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "cards stack" */ = {
+		3999F4342DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "CardStack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3999F4352DB6B88800B57C0B /* Debug */,
@@ -539,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3999F4372DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "cards stackTests" */ = {
+		3999F4372DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "CardStackTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3999F4382DB6B88800B57C0B /* Debug */,
@@ -548,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3999F43A2DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "cards stackUITests" */ = {
+		3999F43A2DB6B88800B57C0B /* Build configuration list for PBXNativeTarget "CardStackUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3999F43B2DB6B88800B57C0B /* Debug */,
